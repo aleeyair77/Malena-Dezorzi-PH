@@ -1,5 +1,9 @@
-const CartWidget = () => {
-    return <button></button>
-}
+import { IoCartOutline } from "react-icons/io5";
 
-export default CartWidget;
+const CartWidget = () => {
+    return <>
+        <IoCartOutline  />
+    </>;
+};
+
+export default CartWidget; 
