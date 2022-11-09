@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <main>
-      <ItemListContainer greeting={"Bienvenidos"} />
       <NavBar />
+      <ItemListContainer greeting={"Malena DeZorzi"} />
       <Presentacion />
       </main>
     </div>
