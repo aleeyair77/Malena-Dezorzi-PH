@@ -1,21 +1,19 @@
 import { useEffect, useState } from "react"
 import { itemsMock } from "../mocks/item.mocks"
-import { ItemList } from "./ItemList";
+import { ItemDetail } from "./ItemDetail";
 
-
-export const ItemListContainer = () => {
-    const [products, setProducts] = useState([]);
+export const ItemDetailContainer = () => {
+    const [item, setItem] = useState(null);
     useEffect(() => {
         new Promise((resolve) => 
         setTimeout(() => {
         resolve(itemsMock);
     }, 2000)
-        ).then((data) => setProducts(data));
+        ).then((data) => setItem(data));
     }, []);
 
-    if (products.length === 0){
+    if (!item){
         return <p>loading...</p>
     }
-    return <div><ItemList products={products}/></div>
+    return <ItemDetail item={item}/>
 }
-
