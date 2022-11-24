@@ -7,6 +7,15 @@
     width: 100%;
 }
 
+.inicio-fondo{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./../../public/fondoinicio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
 .inicio-textos{
     grid-area: inicio-textos;
 }
@@ -21,6 +30,7 @@ $n:5; /* number of images*/
   width: 220px;
   align-items: center;
   margin-left: 240px ;
+  z-index: 1;
 }
 .gallery > img {
   grid-area: 1/1;

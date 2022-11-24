@@ -1,3 +1,6 @@
+import negra from "../assets/negra.jpg";
+import evento from "../assets/evento.JPG";
+
 export const itemsMock = [
     {
     id: "1",
@@ -5,7 +8,7 @@ export const itemsMock = [
     category: "Books",
     description: "fotos personalizadas para personas",
     stock: "20",
-    img:"",
+    img: negra,
 },
 {
     id: "2",
@@ -13,7 +16,7 @@ export const itemsMock = [
     category: "Eventos",
     description: "fotografias para su evento",
     stock: "20",
-    img:"",
+    img: evento,
 },
 {
     id: "3",

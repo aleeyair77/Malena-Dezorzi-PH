@@ -11,8 +11,8 @@ export const NavBar = () => {
     return <header className="main-header">
         <div className="div-nav">
         <ul className="nav-links">
-            <li className="nav-link"><Link className="a"><IoHomeOutline /></Link></li>
-            <li className="nav-link"><Link to="/category/servicios" className="a"><IoStorefrontOutline /></Link></li>
+            <li className="nav-link"><Link to="/" className="a"><IoHomeOutline /></Link></li>
+            <li className="nav-link"><Link  className="a"><IoStorefrontOutline /></Link></li>
             <li className="nav-link"><Link className="a"><IoImageOutline /></Link></li>
             <li className="nav-link"><Link className="a"><IoWomanOutline /></Link></li>
             <li className="nav-link"><Link className="a"><IoMailOutline /></Link></li>
